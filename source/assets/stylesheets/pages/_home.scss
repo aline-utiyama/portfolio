@@ -1,6 +1,21 @@
 // Specific CSS for your home-page
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 body {
   background-color: #fff;
+
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: #59ac98;
+}
+
+a:hover {
+  color: #2f6558;
 }
 
 #bkg-gradient {
@@ -11,9 +26,57 @@ body {
   // width: 100%;
   height: 100%;
   width: 400px;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+
+    .avatar-large {
+      margin: 80px 0 48px 0;
+    }
+
+    ul {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+
+      i {
+        font-size: 24px;
+        padding: 16px;
+      }
+    }
+  }
 }
 
 .pt-container {
   display: flex;
+
 }
 
+.tab-pills-left {
+  width: 80px;
+
+  .nav-link {
+    width: 80px;
+    text-align: center;
+    padding: 16px 4px;
+    height: 80px;
+
+    i {
+      font-size: 24px;
+    }
+  }
+}
+
+.nav-pills .nav-link.active {
+  background-color: #fff;
+  color: #2f6558;
+
+}
+
+.content {
+  position: fixed;
+  left: 480px;
+}

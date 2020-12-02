@@ -1,29 +1,73 @@
 <div class="pt-container ">
-  <div class="row justify-content-center">
-    <div class="pt-container">
-      <div class="col">
-        <div class="row">
-          <div class="">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-              <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-              <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-              <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" id="bkg-gradient">
-        <h1>Middleman Boilerplate</h1>
-      </div>
-      <div class="col content">
-        <div class="tab-content" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">A</div>
-          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">B</div>
-          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">C</div>
-          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">D</div>
-        </div>
-      </div>
+  <div class="tab-pills-left">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+        <i class="fas fa-user-circle"></i>
+        About</a>
+      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+        <i class="fas fa-code"></i>
+        Projects</a>
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+        <i class="fas fa-file-alt"></i>
+        Resume</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+        <i class="far fa-envelope"></i>
+        Contact</a>
     </div>
   </div>
+  <div class="col" id="bkg-gradient">
+    <div class="info">
+      <img class="avatar-large" src="./assets/images/foto_perfil.jpeg" alt="portfolio-photo">
+      <h2>Aline Utiyama</h2>
+      <h5>Full-Stack Web Developer</h5>
+      <ul>
+        <li><i class="fab fa-linkedin"></i></li>
+        <li><i class="fab fa-github"></i></i></li>
+    </ul>
+  </div>
+</div>
+<div class="col content">
+  <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+      <div class="about-me">
+        <h2>About me</h2>
+        <p>Born in Brazil and raised in Japan, I have a degree in Accounting and spent the first years of my career working for an accounting firm.
+          In 2015 I founded Amora.jp, one of the largest E-Commerce website targeting Brazilians and Latinos in Japan, and have managed the company’s overall operation for over 5 years until its acquisition by a major retailer in 2020.
+          During the time I was in charge of the E-commerce business I found passion for technology and decided to further build my career as a Web Developer.
+          On top of all the customizations I have done on the E-commerce website itself, I also joined a 9 weeks Coding Bootcamp where I was able to improve my technical skills and learn more about modern software architecture.</p>
+        <div>
+          <h4>Technical Skills</h4>
+          <ul>
+            <li> Ruby on Rails
+            </li>
+            <li>HTML, CSS, Bootstrap
+            </li>
+            <li>ES6 Javascript
+            </li>
+            <li>APIs, JSON, scraping
+            </li>
+            <li>Relational databases, SQL, Postgres
+            </li>
+            <li>Git, Github, technical workflow
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Languages</h4>
+          <ul>
+            <li>English: Fluent
+            </li>
+            <li>Japanese: Business
+            </li>
+            <li>Portuguese: Native
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">B</div>
+    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">C</div>
+    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">D</div>
+  </div>
+</div>
 </div>
