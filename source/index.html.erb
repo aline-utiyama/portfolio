@@ -7,9 +7,9 @@
       <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
         <i class="fas fa-code"></i>
         Projects</a>
-      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+      <!-- <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
         <i class="fas fa-file-alt"></i>
-        Resume</a>
+        Resume</a> -->
       <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
         <i class="far fa-envelope"></i>
         Contact</a>
@@ -21,10 +21,10 @@
       <h2>Aline Utiyama</h2>
       <h5>Full-Stack Web Developer</h5>
       <ul>
-        <li><a href="https://github.com/aline-utiyama" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/alineutiyama/" target="_blank"><i class="fab fa-github"></i></i></a></li>
-      <li><a href="mailto: as.utiyama@gmail.com"><i class="far fa-envelope"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/alineutiyama" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/aline-utiyama" target="_blank"><i class="fab fa-github"></i></i></a></li>
     </ul>
+    <a href="mailto: as.utiyama@gmail.com" class="mail-btn"><i class="far fa-envelope"></i>Contact me</a>
   </div>
 </div>
 <div class="content">
@@ -42,8 +42,15 @@
             On top of all the customizations I have done on the E-commerce website itself, I also joined a 9 weeks Coding Bootcamp where I was able to improve my technical skills and learn more about modern software architecture.</p>
           <br>
         </div>
-        <div class="d-flex">
-          <div class="skills">
+        <div class="d-flex sk-lg-list">
+          <div class="my-info skill-card">
+            <h4>Personal</h4>
+            <li><span>Age: </span>31</li>
+            <li><span>Birth Date: </span>16/07/1989</li>
+            <li><span>Residence: </span>Tokyo, Chuo-ku</li>
+            <li><span>Country: </span>Brazil</li>
+          </div>
+          <div class="skills skill-card">
             <h4>Technical Skills</h4>
             <ul>
               <li> Ruby on Rails
@@ -60,16 +67,14 @@
               </li>
             </ul>
           </div>
-          <div class="languages">
+          <div class="languages skill-card">
             <h4>Languages</h4>
-            <ul>
-              <li>English: Fluent
-              </li>
-              <li>Japanese: Business
-              </li>
-              <li>Portuguese: Native
-              </li>
-            </ul>
+            <li><span>English: </span>Fluent
+            </li>
+            <li><span>Japanese: </span>Business
+            </li>
+            <li><span>Portuguese: </span>Native
+            </li>
           </div>
         </div>
       </div>
@@ -77,63 +82,75 @@
     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
       <h2>My projects</h2>
       <div class="project-card">
-        <img src="./assets/images/mentorhub_homepage.png" alt="MentorHub">
+        <img src="./assets/images/mentorhub.png" alt="MentorHub">
         <div class="project-description">
           <h2>MentorHub</h2>
           <p>MentorHub is a streamlined app designed to take the complication out of creating a mentor/mentee relationship.</p>
           <p>Solution: A platform where highly experienced tutors will sell their experience to students, workers, and corporations.</p>
           <p>Target: Mentees looking for personalized help for startups, new ideas, or any sort of activity that requires sharp and experienced eyes on it.</p>
           <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord as team of 3 people.</p>
+          <a href="https://www.mentor-hub.app/" target="_blank" class="main-btn">View Site</a>
         </div>
       </div>
       <div class="project-card">
-        <img src="./assets/images/mentorhub_homepage.png" alt="MentorHub">
+        <img src="./assets/images/moovers.png" alt="Moovers">
         <div class="project-description">
-          <h2>MentorHub</h2>
-          <p>MentorHub is a streamlined app designed to take the complication out of creating a mentor/mentee relationship.</p>
-          <p>Solution: A platform where highly experienced tutors will sell their experience to students, workers, and corporations.</p>
-          <p>Target: Mentees looking for personalized help for startups, new ideas, or any sort of activity that requires sharp and experienced eyes on it.</p>
+          <h2>Moovers</h2>
+          <p>A market place where you can find a driver nearby who can carry your purchases up to your home or desired location.</p>
+          <p>Solution: Faster and cheaper delivery.
+            And also to generate jobs for drivers who wants to work freely or makes an extra income. </p>
+          <p>Target: people who can not carry their shoppings and wants to receive it as soon as possible, mostly for big or heavy things like furniture.</p>
           <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord as team of 3 people.</p>
+          <a href="https://mooovers.herokuapp.com/" target="_blank" class="main-btn">View Site</a>
         </div>
       </div>
       <div class="project-card">
-        <img src="./assets/images/mentorhub_homepage.png" alt="MentorHub">
+        <img src="./assets/images/brastown.png" alt="BrasTown">
         <div class="project-description">
-          <h2>MentorHub</h2>
+          <h2>BrasTown</h2>
           <p>MentorHub is a streamlined app designed to take the complication out of creating a mentor/mentee relationship.</p>
           <p>Solution: A platform where highly experienced tutors will sell their experience to students, workers, and corporations.</p>
           <p>Target: Mentees looking for personalized help for startups, new ideas, or any sort of activity that requires sharp and experienced eyes on it.</p>
           <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord as team of 3 people.</p>
+          <a href="https://brastown.jp/" target="_blank" class="main-btn">View Site</a>
         </div>
       </div>
       <div class="project-card">
-        <img src="./assets/images/mentorhub_homepage.png" alt="MentorHub">
+        <img src="./assets/images/amora.png" alt="Amora">
         <div class="project-description">
-          <h2>MentorHub</h2>
+          <h2>AMORA</h2>
           <p>MentorHub is a streamlined app designed to take the complication out of creating a mentor/mentee relationship.</p>
           <p>Solution: A platform where highly experienced tutors will sell their experience to students, workers, and corporations.</p>
           <p>Target: Mentees looking for personalized help for startups, new ideas, or any sort of activity that requires sharp and experienced eyes on it.</p>
           <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord as team of 3 people.</p>
+          <a href="https://amora.jp/" target="_blank" class="main-btn">View Site</a>
         </div>
       </div>
       <div class="project-card">
-        <img src="./assets/images/mentorhub_homepage.png" alt="MentorHub">
+        <img src="./assets/images/gabus.png" alt="Gabus">
         <div class="project-description">
-          <h2>MentorHub</h2>
+          <h2>Gabus</h2>
           <p>MentorHub is a streamlined app designed to take the complication out of creating a mentor/mentee relationship.</p>
           <p>Solution: A platform where highly experienced tutors will sell their experience to students, workers, and corporations.</p>
           <p>Target: Mentees looking for personalized help for startups, new ideas, or any sort of activity that requires sharp and experienced eyes on it.</p>
           <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord as team of 3 people.</p>
+          <a href="https://gabus.jp/" target="_blank" class="main-btn">View Site</a>
         </div>
       </div>
     </div>
-    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">C</div>
+    <!-- <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">C</div> -->
     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
       <h2>Contact me</h2>
       <ul class="contact-list">
-        <li><i class="far fa-envelope"></i> <a href="mailto: as.utiyama@gmail.com">as.utiyama@gmail.com</a></li>
-        <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/alineutiyama/" target="_blank">https://www.linkedin.com/in/alineutiyama</a></li>
-        <li><i class="fab fa-github"></i> <a href="https://github.com/aline-utiyama" target="_blank">https://github.com/aline-utiyama</a></li>
+        <li><i class="far fa-envelope"></i>
+          <p><a href="mailto: as.utiyama@gmail.com">as.utiyama@gmail.com</a></p>
+        </li>
+        <li><i class="fab fa-linkedin"></i>
+          <p><a href="https://www.linkedin.com/in/alineutiyama/" target="_blank">https://www.linkedin.com/in/alineutiyama</a></p>
+           </li>
+        <li><i class="fab fa-github"></i>
+          <p><a href="https://github.com/aline-utiyama" target="_blank">https://github.com/aline-utiyama</a></p>
+           </li>
       </ul>
     </div>
   </div>
