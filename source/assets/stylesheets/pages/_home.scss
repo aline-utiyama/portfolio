@@ -25,13 +25,15 @@ a:hover {
 p , li {
   color: #646464;
   font-weight: 100;
-  font-size: 14px;
-  line-height: 1.6em;
+  font-size: 16px;
+  line-height: 1.8em;
 
 }
 
+
+
 .title {
-  font-size: 20px;
+
 }
 
 #role {
@@ -113,7 +115,7 @@ p , li {
 .content {
   position: absolute;
   left: 480px;
-  padding: 40px 200px 32px 80px;
+  padding: 40px;
 
 }
 
@@ -197,7 +199,7 @@ p , li {
 }
 
 .skill-card {
-
+  padding: 16px;
 
   span {
     font-weight: 500;
@@ -237,4 +239,152 @@ p , li {
 
 }
 
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 1199px) {
+  #contact {
+    padding: 32px;
+    max-width: 630px;
+    margin: 0 auto;
+  }
+
+  .pt-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tab-pills-left {
+    position: static;
+  }
+
+  #bkg-gradient {
+    position: static;
+    padding: 0;
+    width: 100%;
+
+
+    .info {
+      flex-direction: row;
+      justify-content: center;
+
+      .avatar-large {
+        margin: 48px 16px;
+      }
+
+      h2 {
+        font-size: 20px;
+        margin: 0;
+      }
+
+      ul {
+        display: none;
+      }
+    }
+  }
+
+  .content {
+    position: static;
+    padding: 0;
+  }
+
+  .nav-pills {
+    flex-wrap: nowrap;
+  }
+
+  .avatar-large {
+    //width: 160px;
+
+  }
+
+  .about-me {
+    padding: 32px;
+
+    .sk-lg-list {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+
+  #role {
+    font-size: 14px;
+    padding-bottom: 16px;
+  }
+
+  .skill-card {
+    padding: 16px;
+  }
+
+  .my-projects {
+    padding: 32px 24px;
+
+    .title {
+      max-width: 630px;
+      margin: 0 auto;
+    }
+  }
+
+  .project-card {
+    flex-wrap: wrap;
+    padding: 32px 0;
+    max-width: 630px;
+    margin: 0 auto;
+
+    .project-description {
+    padding: 32px 0;
+    }
+  }
+
+  .tab-pills-left {
+    width: auto;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+
+    .nav-link {
+      margin: 0 10px;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .about-me {
+    padding: 8px 32px;
+  }
+
+  .project-card {
+    flex-wrap: wrap;
+    padding: 32px 0;
+
+    .project-description {
+    padding: 32px 0;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 591px) and (max-width: 1198){
+  .avatar-large {
+    width: 240px;
+  }
+ }
+
+ @media (max-width: 590px) {
+  .avatar-large {
+    width: 160px;
+  }
+ }

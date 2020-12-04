@@ -1,6 +1,6 @@
 <div class="pt-container ">
   <div class="tab-pills-left">
-    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
       <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#about" role="tab" aria-controls="v-pills-home" aria-selected="true">
         <i class="fas fa-user-circle"></i>
         About</a>
@@ -18,13 +18,15 @@
   <div class="col" id="bkg-gradient">
     <div class="info">
       <img class="avatar-large" src="./assets/images/foto_perfil.jpeg" alt="portfolio-photo">
-      <h2>Aline Utiyama</h2>
-      <p id="role">Full-Stack Web Developer</p>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/alineutiyama" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-        <li><a href="https://github.com/aline-utiyama" target="_blank"><i class="fab fa-github"></i></i></a></li>
-    </ul>
-    <a href="mailto: as.utiyama@gmail.com" class="mail-btn"><i class="far fa-envelope"></i>Contact me</a>
+      <div class="info-card">
+        <h2>Aline Utiyama</h2>
+        <p id="role">Full-Stack Web Developer</p>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/alineutiyama" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/aline-utiyama" target="_blank"><i class="fab fa-github"></i></i></a></li>
+      </ul>
+      <a href="mailto: as.utiyama@gmail.com" class="mail-btn"><i class="far fa-envelope"></i>Contact me</a>
+    </div>
   </div>
 </div>
 <div class="content">
@@ -80,57 +82,59 @@
       </div>
     </div>
     <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-      <h3>My projects</h3>
-      <div class="project-card">
-        <img src="./assets/images/mentorhub.png" alt="MentorHub">
-        <div class="project-description">
-          <h4>MentorHub</h4>
-          <p>MentorHub is a streamlined app designed to take the complication out of creating a mentor/mentee relationship.</p>
-          <p><span>Solution:</span> A platform where highly experienced mentors can dedicate their time to coach students, professionals, and corporations on specific topics.</p>
-          <p><span>Target:</span> Startup founders looking for advice on fundraising, recruiting, product development or any other relevant topic.</p>
-          <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord The team was composed by 3 people.</p>
-          <a href="https://www.mentor-hub.app/" target="_blank" class="main-btn">View Site</a>
+      <div class="my-projects">
+        <h3 class="title">My projects</h3>
+        <div class="project-card">
+          <img src="./assets/images/mentorhub.png" alt="MentorHub">
+          <div class="project-description">
+            <h4>MentorHub</h4>
+            <p>A platform where highly experienced mentors can dedicate their time to coach students, professionals, and corporations on specific topics.</p>
+            <!-- <p><span>Solution:</span> MentorHub is a streamlined app designed to take the complication out of creating a mentor/mentee relationship.</p>
+          <p><span>Target:</span> Startup founders looking for advice on fundraising, recruiting, product development or any other relevant topic.</p> -->
+            <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord The team was composed by 3 people.</p>
+            <a href="https://www.mentor-hub.app/" target="_blank" class="main-btn">View Site</a>
+          </div>
         </div>
-      </div>
-      <div class="project-card">
-        <img src="./assets/images/moovers.png" alt="Moovers">
-        <div class="project-description">
-          <h4>Moovers</h4>
-          <p>A marketplace where users can find a nearby driver who can help them to carry their purchases to their home or any desired location.</p>
-          <p>
+        <div class="project-card">
+          <img src="./assets/images/moovers.png" alt="Moovers">
+          <div class="project-description">
+            <h4>Moovers</h4>
+            <p>A marketplace where users can find a nearby driver who can help them to carry their purchases to their home or any desired location.</p>
+            <!-- <p>
             <span>Solution:</span> Fast and affordable delivery service.
             In addition to that, the platform also creates job opportunities for drivers that want to be part of the network and earn an extra income, or do this for a living.</p>
-          <p><span>Target:</span> Shoppers that cannot carry their purchases and want to receive them as soon as possible, mainly suited for big or heavy items such as home furniture.</p>
-          <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord The team was composed by 3 people.</p>
-          <a href="https://mooovers.herokuapp.com/" target="_blank" class="main-btn">View Site</a>
+          <p><span>Target:</span> Shoppers that cannot carry their purchases and want to receive them as soon as possible, mainly suited for big or heavy items such as home furniture.</p> -->
+            <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord The team was composed by 3 people.</p>
+            <a href="https://mooovers.herokuapp.com/" target="_blank" class="main-btn">View Site</a>
+          </div>
         </div>
-      </div>
-      <div class="project-card">
-        <img src="./assets/images/brastown.png" alt="BrasTown">
-        <div class="project-description">
-          <h4>BrasTown</h4>
-          <p>Online directory for discovering local businesses ranging from bars, restaurants, and cafes to hairdressers, spas, and car dealers.</p>
-          <p>The website mainly targets Brazilians living in Japan, as well as Portuguese speaking businesses.</p>
-          <p>I was in charge of developing the entire website, design and content creation.</p>
-          <a href="https://brastown.jp/" target="_blank" class="main-btn">View Site</a>
+        <div class="project-card">
+          <img src="./assets/images/brastown.png" alt="BrasTown">
+          <div class="project-description">
+            <h4>BrasTown</h4>
+            <p>Online directory for discovering local businesses ranging from bars, restaurants, and cafes to hairdressers, spas, and car dealers.</p>
+            <p>The website mainly targets Brazilians living in Japan, as well as Portuguese speaking businesses.</p>
+            <p>I was in charge of developing the entire website, design and content creation.</p>
+            <a href="https://brastown.jp/" target="_blank" class="main-btn">View Site</a>
+          </div>
         </div>
-      </div>
-      <div class="project-card">
-        <img src="./assets/images/amora.png" alt="Amora">
-        <div class="project-description">
-          <h4>AMORA</h4>
-          <p>E-commerce website specialized in Brazilian fashion items, including shoes, underwear and accessories.</p>
-          <p>The online store is based on Shopify and I was responsible for adding and configuring apps, web design (Including customizations on the template) and content creation.</p>
-          <a href="https://amora.jp/" target="_blank" class="main-btn">View Site</a>
+        <div class="project-card">
+          <img src="./assets/images/amora.png" alt="Amora">
+          <div class="project-description">
+            <h4>AMORA</h4>
+            <p>E-commerce website specialized in Brazilian fashion items, including shoes, underwear and accessories.</p>
+            <p>The online store is based on Shopify and I was responsible for adding and configuring apps, web design (Including customizations on the template) and content creation.</p>
+            <a href="https://amora.jp/" target="_blank" class="main-btn">View Site</a>
+          </div>
         </div>
-      </div>
-      <div class="project-card">
-        <img src="./assets/images/gabus.png" alt="Gabus">
-        <div class="project-description">
-          <h4>Gabus</h4>
-          <p>E-commerce website specialized in Women’s and Men’s designer clothing & High-end clothing.</p>
-          <p>The online store is based on Shopify and I was responsible for adding and configuring apps, web design (Including customizations on the template) and overall consultation on how to optimize it for better results.</p>
-          <a href="https://gabus.jp/" target="_blank" class="main-btn">View Site</a>
+        <div class="project-card">
+          <img src="./assets/images/gabus.png" alt="Gabus">
+          <div class="project-description">
+            <h4>Gabus</h4>
+            <p>E-commerce website specialized in Women’s and Men’s designer clothing & High-end clothing.</p>
+            <p>The online store is based on Shopify and I was responsible for adding and configuring apps, web design (Including customizations on the template) and overall consultation on how to optimize it for better results.</p>
+            <a href="https://gabus.jp/" target="_blank" class="main-btn">View Site</a>
+          </div>
         </div>
       </div>
     </div>
