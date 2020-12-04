@@ -298,7 +298,7 @@ p , li {
   }
 
   .avatar-large {
-    width: 160px;
+    //width: 160px;
 
   }
 
@@ -339,6 +339,17 @@ p , li {
     padding: 32px 0;
     }
   }
+
+  .tab-pills-left {
+    width: auto;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+
+    .nav-link {
+      margin: 0 10px;
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -366,4 +377,14 @@ p , li {
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1500px) {  }
+@media (min-width: 591px) and (max-width: 1198){
+  .avatar-large {
+    width: 240px;
+  }
+ }
+
+ @media (max-width: 590px) {
+  .avatar-large {
+    width: 160px;
+  }
+ }
