@@ -25,7 +25,20 @@ a:hover {
 p , li {
   color: #646464;
   font-weight: 100;
+  font-size: 14px;
+  line-height: 1.6em;
 
+}
+
+.title {
+  font-size: 20px;
+}
+
+#role {
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  margin: 0;
 }
 
 #bkg-gradient {
@@ -43,6 +56,7 @@ p , li {
     align-items: center;
     color: #fff;
 
+
     .avatar-large {
       margin: 80px 0 48px 0;
     }
@@ -58,7 +72,7 @@ p , li {
 
       i {
         font-size: 24px;
-        padding: 16px;
+        padding: 40px 16px 24px 16px;
         color: #fff;
       }
 
@@ -132,8 +146,8 @@ p , li {
 
 .project-card {
   display: flex;
-  align-items: center;
-  padding: 32px 0;
+  align-items: start;
+  padding: 64px 0;
 
 
   img {
@@ -144,7 +158,13 @@ p , li {
 
   .project-description {
     padding-left: 40px;
+
+    span {
+      font-weight: 600;
+      text-decoration-line: underline;
+    }
   }
+
 }
 
 .about-me {
@@ -159,18 +179,21 @@ p , li {
 }
 
 .main-btn {
-  background-color: #59ac98;
-  padding: 8px 16px;
-  border-radius: 25px;
-  color: #fff;
-  text-decoration: none;
-}
-
-.main-btn:hover {
   background-color: #fff;
   color: #59ac98;
   text-decoration: none;
   border: 1px solid #59ac98;
+  padding: 8px 16px;
+  border-radius: 25px;
+}
+
+.main-btn:hover {
+
+  background-color: #59ac98;
+
+
+  color: #fff;
+  text-decoration: none;
 }
 
 .skill-card {
@@ -207,9 +230,11 @@ p , li {
 }
 
 .mail-btn:hover {
-  color: #2f6558;
+  background-color: #fff;
+  border-color: #fff;
+  color: #59ac98;
   text-decoration: none;
-  border-color: #2f6558;
+
 }
 
 
