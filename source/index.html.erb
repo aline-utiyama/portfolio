@@ -1,16 +1,16 @@
 <div class="pt-container ">
   <div class="tab-pills-left">
     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#about" role="tab" aria-controls="v-pills-home" aria-selected="true">
         <i class="fas fa-user-circle"></i>
         About</a>
-      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#projects" role="tab" aria-controls="v-pills-profile" aria-selected="false">
         <i class="fas fa-code"></i>
         Projects</a>
       <!-- <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
         <i class="fas fa-file-alt"></i>
         Resume</a> -->
-      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#contact" role="tab" aria-controls="v-pills-settings" aria-selected="false">
         <i class="far fa-envelope"></i>
         Contact</a>
     </div>
@@ -19,7 +19,7 @@
     <div class="info">
       <img class="avatar-large" src="./assets/images/foto_perfil.jpeg" alt="portfolio-photo">
       <h2>Aline Utiyama</h2>
-      <h5>Full-Stack Web Developer</h5>
+      <p id="role">Full-Stack Web Developer</p>
       <ul>
         <li><a href="https://www.linkedin.com/in/alineutiyama" target="_blank"><i class="fab fa-linkedin"></i></a></li>
         <li><a href="https://github.com/aline-utiyama" target="_blank"><i class="fab fa-github"></i></i></a></li>
@@ -29,15 +29,15 @@
 </div>
 <div class="content">
   <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+    <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="v-pills-home-tab">
       <div class="about-me">
         <div class="about-text">
-          <h2>About me</h2>
+          <h3>About me</h3>
           <p>Born in Brazil and raised in Japan, I have a degree in Accounting and spent the first years of my career working for an accounting firm. <br>
             <br>
             In 2015 I founded Amora.jp, one of the largest E-Commerce website targeting Brazilians and Latinos in Japan, and have managed the company’s overall operation for over 5 years until its acquisition by a major retailer in 2020.<br>
             <br>
-            During the time I was in charge of the E-commerce business I found passion for technology and decided to further build my career as a Web Developer.<br>
+            During the time I was in charge of the E-commerce business I became passionate about technology and decided to further build my career as a Web Developer.<br>
             <br>
             On top of all the customizations I have done on the E-commerce website itself, I also joined a 9 weeks Coding Bootcamp where I was able to improve my technical skills and learn more about modern software architecture.</p>
           <br>
@@ -79,78 +79,74 @@
         </div>
       </div>
     </div>
-    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-      <h2>My projects</h2>
+    <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+      <h3>My projects</h3>
       <div class="project-card">
         <img src="./assets/images/mentorhub.png" alt="MentorHub">
         <div class="project-description">
-          <h2>MentorHub</h2>
+          <h4>MentorHub</h4>
           <p>MentorHub is a streamlined app designed to take the complication out of creating a mentor/mentee relationship.</p>
-          <p>Solution: A platform where highly experienced tutors will sell their experience to students, workers, and corporations.</p>
-          <p>Target: Mentees looking for personalized help for startups, new ideas, or any sort of activity that requires sharp and experienced eyes on it.</p>
-          <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord as team of 3 people.</p>
+          <p><span>Solution:</span> A platform where highly experienced mentors can dedicate their time to coach students, professionals, and corporations on specific topics.</p>
+          <p><span>Target:</span> Startup founders looking for advice on fundraising, recruiting, product development or any other relevant topic.</p>
+          <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord The team was composed by 3 people.</p>
           <a href="https://www.mentor-hub.app/" target="_blank" class="main-btn">View Site</a>
         </div>
       </div>
       <div class="project-card">
         <img src="./assets/images/moovers.png" alt="Moovers">
         <div class="project-description">
-          <h2>Moovers</h2>
-          <p>A market place where you can find a driver nearby who can carry your purchases up to your home or desired location.</p>
-          <p>Solution: Faster and cheaper delivery.
-            And also to generate jobs for drivers who wants to work freely or makes an extra income. </p>
-          <p>Target: people who can not carry their shoppings and wants to receive it as soon as possible, mostly for big or heavy things like furniture.</p>
-          <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord as team of 3 people.</p>
+          <h4>Moovers</h4>
+          <p>A marketplace where users can find a nearby driver who can help them to carry their purchases to their home or any desired location.</p>
+          <p>
+            <span>Solution:</span> Fast and affordable delivery service.
+            In addition to that, the platform also creates job opportunities for drivers that want to be part of the network and earn an extra income, or do this for a living.</p>
+          <p><span>Target:</span> Shoppers that cannot carry their purchases and want to receive them as soon as possible, mainly suited for big or heavy items such as home furniture.</p>
+          <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord The team was composed by 3 people.</p>
           <a href="https://mooovers.herokuapp.com/" target="_blank" class="main-btn">View Site</a>
         </div>
       </div>
       <div class="project-card">
         <img src="./assets/images/brastown.png" alt="BrasTown">
         <div class="project-description">
-          <h2>BrasTown</h2>
-          <p>MentorHub is a streamlined app designed to take the complication out of creating a mentor/mentee relationship.</p>
-          <p>Solution: A platform where highly experienced tutors will sell their experience to students, workers, and corporations.</p>
-          <p>Target: Mentees looking for personalized help for startups, new ideas, or any sort of activity that requires sharp and experienced eyes on it.</p>
-          <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord as team of 3 people.</p>
+          <h4>BrasTown</h4>
+          <p>Online directory for discovering local businesses ranging from bars, restaurants, and cafes to hairdressers, spas, and car dealers.</p>
+          <p>The website mainly targets Brazilians living in Japan, as well as Portuguese speaking businesses.</p>
+          <p>I was in charge of developing the entire website, design and content creation.</p>
           <a href="https://brastown.jp/" target="_blank" class="main-btn">View Site</a>
         </div>
       </div>
       <div class="project-card">
         <img src="./assets/images/amora.png" alt="Amora">
         <div class="project-description">
-          <h2>AMORA</h2>
-          <p>MentorHub is a streamlined app designed to take the complication out of creating a mentor/mentee relationship.</p>
-          <p>Solution: A platform where highly experienced tutors will sell their experience to students, workers, and corporations.</p>
-          <p>Target: Mentees looking for personalized help for startups, new ideas, or any sort of activity that requires sharp and experienced eyes on it.</p>
-          <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord as team of 3 people.</p>
+          <h4>AMORA</h4>
+          <p>E-commerce website specialized in Brazilian fashion items, including shoes, underwear and accessories.</p>
+          <p>The online store is based on Shopify and I was responsible for adding and configuring apps, web design (Including customizations on the template) and content creation.</p>
           <a href="https://amora.jp/" target="_blank" class="main-btn">View Site</a>
         </div>
       </div>
       <div class="project-card">
         <img src="./assets/images/gabus.png" alt="Gabus">
         <div class="project-description">
-          <h2>Gabus</h2>
-          <p>MentorHub is a streamlined app designed to take the complication out of creating a mentor/mentee relationship.</p>
-          <p>Solution: A platform where highly experienced tutors will sell their experience to students, workers, and corporations.</p>
-          <p>Target: Mentees looking for personalized help for startups, new ideas, or any sort of activity that requires sharp and experienced eyes on it.</p>
-          <p>Built with Ruby on Rails, HTML, Css, JavaScript, Ajax and ActiveRecord as team of 3 people.</p>
+          <h4>Gabus</h4>
+          <p>E-commerce website specialized in Women’s and Men’s designer clothing & High-end clothing.</p>
+          <p>The online store is based on Shopify and I was responsible for adding and configuring apps, web design (Including customizations on the template) and overall consultation on how to optimize it for better results.</p>
           <a href="https://gabus.jp/" target="_blank" class="main-btn">View Site</a>
         </div>
       </div>
     </div>
     <!-- <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">C</div> -->
-    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-      <h2>Contact me</h2>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      <h3>Contact me</h3>
       <ul class="contact-list">
         <li><i class="far fa-envelope"></i>
           <p><a href="mailto: as.utiyama@gmail.com">as.utiyama@gmail.com</a></p>
         </li>
         <li><i class="fab fa-linkedin"></i>
           <p><a href="https://www.linkedin.com/in/alineutiyama/" target="_blank">https://www.linkedin.com/in/alineutiyama</a></p>
-           </li>
+        </li>
         <li><i class="fab fa-github"></i>
           <p><a href="https://github.com/aline-utiyama" target="_blank">https://github.com/aline-utiyama</a></p>
-           </li>
+        </li>
       </ul>
     </div>
   </div>
