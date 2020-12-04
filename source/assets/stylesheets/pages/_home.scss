@@ -25,8 +25,8 @@ a:hover {
 p , li {
   color: #646464;
   font-weight: 100;
-  font-size: 14px;
-  line-height: 1.6em;
+  font-size: 16px;
+  line-height: 1.8em;
 
 }
 
@@ -238,3 +238,79 @@ p , li {
 }
 
 
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 992px) {
+  .pt-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tab-pills-left {
+    position: static;
+  }
+
+  #bkg-gradient {
+    position: static;
+    padding: 0;
+    width: 100%;
+
+
+    .info {
+      flex-direction: row;
+      justify-content: center;
+
+      .avatar-large {
+        margin: 48px 16px;
+      }
+
+      h2 {
+        font-size: 20px;
+        margin: 0;
+      }
+
+      ul {
+        display: none;
+      }
+    }
+  }
+
+  .content {
+    position: static;
+    padding: 0;
+  }
+
+  .nav-pills {
+    flex-wrap: nowrap;
+  }
+
+  .avatar-large {
+    width: 160px;
+
+  }
+
+  .about-me {
+    padding: 32px;
+
+    .sk-lg-list {
+      flex-wrap: wrap;
+    }
+  }
+
+  #role {
+    font-size: 14px;
+    padding-bottom: 16px;
+  }
+
+  .skill-card {
+    padding: 16px 0;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 769px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
