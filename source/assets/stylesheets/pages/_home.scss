@@ -138,10 +138,11 @@ p , li {
 
   li {
     display: flex;
-    align-items: baseline;
+    align-items: center;
 
     p {
       color: #646464;
+      margin: 0;
     }
   }
 }
