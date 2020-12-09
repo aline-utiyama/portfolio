@@ -46,8 +46,13 @@
         </div>
         <div class="d-flex sk-lg-list">
           <div class="my-info skill-card">
+            <% time_now = Date.today %>
+            <% date_now = time_now.strftime("%Y/%m/%d")   %>
+            <% birth_date = Date.civil(1989, 7, 16) %>
+            <% age = (time_now - birth_date ).to_i  %>
+            <% b_age = (age/365.25).to_i %>
             <h4>Personal</h4>
-            <li><span>Age: </span>31</li>
+            <li><span>Age: </span><%= "#{b_age}" %></li>
             <li><span>Birth Date: </span>16/07/1989</li>
             <li><span>Residence: </span>Tokyo, Chuo-ku</li>
             <li><span>Country: </span>Brazil</li>
